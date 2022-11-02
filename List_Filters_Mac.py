@@ -31,6 +31,3 @@ def macsFilterLastLoginDate(macsMissingFromCSFilePath, CornellDatabaseFilePath, 
     macsMissingFromOfficalCSDf = pandas.DataFrame(macsMissingFromOfficalCS)
 
     macsMissingFromOfficalCSDf.to_csv("" + filterMonthNumber + filterYearNumber + "_Macs_Missing_From_CS_Database_" + date + ".csv")
-
-
-macsFilterLastLoginDate("C:/Users/colek/OneDrive/Desktop/New folder/Macs_Missing_From_CS_Database_8_11_22.csv", "C:/Users/colek/OneDrive/Desktop/New folder/Compliance 2022-06_CrowdStrike.xlsx", "07","2022","8_11_22")
