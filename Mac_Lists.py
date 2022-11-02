@@ -52,5 +52,3 @@ def createMacCSVFiles(CSHostFilePath, CornellDatabaseFilePath, date): #CSHostFil
 
     macsMissingFromOfficalCSDf.to_csv("Macs_Missing_From_CS_Database_" + date + ".csv")
     macsToBeAddedToOfficialCSDf.to_csv("Macs_That_Should_Have_CS_" + date + ".csv")
-
-createMacCSVFiles("C:/Users/colek/OneDrive/Desktop/New folder/CS_Host_Data_8_11_22.csv","C:/Users/colek/OneDrive/Desktop/New folder/Compliance 2022-06_CrowdStrike.xlsx","8_11_22")
