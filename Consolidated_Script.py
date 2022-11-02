@@ -10,3 +10,9 @@ def consolidatedScript(CSHostFilePath, CornellDatabaseFilePath, date, filterMont
     windowsFilterLastLoginDate("Windows_Missing_From_CS_Database_" + date +".csv", CornellDatabaseFilePath, filterMonth, filterYear, date)
     macsFilterLastLoginDate("Macs_Missing_From_CS_Database_" + date + ".csv", CornellDatabaseFilePath, filterMonthAsNumber,filterYear,date)
 
+    
+    
+#Here is an example of how I would run this on my computer:
+#The code belows gives all output files. You would replace some of the inputs on your computer to have the correct file paths.
+#consolidatedScript("C:/Users/colek/OneDrive/Desktop/New folder/CS_Host_Data_8_11_22.csv","C:/Users/colek/OneDrive/Desktop/New folder/Compliance 2022-06_CrowdStrike.xlsx","9_10_22","Jul","07","2022")
+
