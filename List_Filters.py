@@ -34,5 +34,3 @@ def windowsFilterLastLoginDate(WindowsMissingFromCSFilePath, CornellDatabaseFile
 
     windowsMissingFromOfficalCSDf.to_csv("" + filterMonth + filterYear + "_Windows_Missing_From_CS_Database" + date + ".csv")
 
-
-windowsFilterLastLoginDate("C:/Users/colek/OneDrive/Desktop/New folder/Windows_Missing_From_CS_Database_8_11_22.csv", "C:/Users/colek/OneDrive/Desktop/New folder/Compliance 2022-06_CrowdStrike.xlsx", "Jul","2022","8_11_22")
