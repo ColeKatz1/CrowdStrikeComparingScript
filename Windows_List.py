@@ -60,7 +60,3 @@ def createWindowsCSVFiles(CSHostFilePath, CornellDatabaseFilePath, date): #CSHos
 
     windowsMissingFromOfficalCSDf.to_csv("Windows_Missing_From_CS_Database_" + date + ".csv")
     windowsToBeAddedToOfficialCSDf.to_csv("Windows_That_Should_Have_CS_" + date + ".csv")
-
-
-
-createWindowsCSVFiles("C:/Users/colek/OneDrive/Desktop/New folder/CS_Host_Data_8_11_22.csv","C:/Users/colek/OneDrive/Desktop/New folder/Compliance 2022-06_CrowdStrike.xlsx","8_12_22")
