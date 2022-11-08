@@ -1,3 +1,18 @@
+To run this on your own computer:
+
+First, download all files from github by clicking the green code button and then clicking "Download Zip".
+<img width="461" alt="Screen Shot 2022-11-08 at 1 56 48 AM" src="https://user-images.githubusercontent.com/84477747/200496033-f1000731-eba3-4140-aa9e-d63f6b274d1f.png">
+
+Next, you will need an IDE. For example, you can download visual studio code. https://code.visualstudio.com/download.
+
+Then, right click the consolidated_script.py file and click "Open with visual studio code".<img width="595" alt="Screen Shot 2022-11-08 at 2 00 48 AM" src="https://user-images.githubusercontent.com/84477747/200496350-2a3fe523-73c8-40b0-9ee9-d15b5ea26e12.png">
+
+Then, click open folder (you can get here by clicking the files icon in the top left of visual studio code). Select the downloaded folder with all the python files in it as your folder. <img width="326" alt="Screen Shot 2022-11-08 at 2 01 16 AM" src="https://user-images.githubusercontent.com/84477747/200496486-042bcb3b-02b0-4c90-b05f-664915e938c9.png">
+
+The final step is to replace the file paths and other inputs in the consolidatedScript function and then run the script! You run the script by clicking this icon in the top right.<img width="119" alt="Screen Shot 2022-11-08 at 2 02 51 AM" src="https://user-images.githubusercontent.com/84477747/200496641-56c8b0ba-c089-4c8d-ad29-4dacde3d057e.png">
+
+It should output the files in the folder!
+
 Explanation of files:
 
 1. Windows_List.py - This file creates the function createWindowsCSVFiles(CSHostFilePath, CornellDatabaseFilePath, date). 
