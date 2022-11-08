@@ -18,7 +18,7 @@ The final step is to replace the file paths and other inputs in the consolidated
 
 <img width="119" alt="Screen Shot 2022-11-08 at 2 02 51 AM" src="https://user-images.githubusercontent.com/84477747/200496641-56c8b0ba-c089-4c8d-ad29-4dacde3d057e.png">
 
-It should output the files in the folder!
+It should output the .csv files in the folder!
 
 Explanation of files:
 
